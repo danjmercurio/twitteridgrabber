@@ -27,3 +27,6 @@ reference to list: If you already have a list instantiated and want to append tw
 ### get_chunkCSV(***screen name***, _api object_, _initial cursor_)
 
 Similar function although there is no list involved. Filename of the csv file will be _screenname_ follower_ids.csv.
+
+## Authentication
+Authentication is easy. Register an app with twitter on their developer site, and paste your API keys into credentials.py as shown. Or, declare a dict in the global namespace called parameters with key/value pairs that correspond to twitter's requirements.
