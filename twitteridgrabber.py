@@ -41,7 +41,7 @@ if __name__=='__main__':
 
 		cursor = -1
 
-		get_chunkCSV(api, user, cursor)
+		get_chunkCSV(user)
 	except:
 		print "Unable to authenticate with twitter. Check access tokens."
 		raise SystemExit
