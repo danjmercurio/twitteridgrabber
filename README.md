@@ -24,6 +24,6 @@ cursor: Twitter returns paginated sets of results at 5000 ids per page. Typicall
 
 reference to list: If you already have a list instantiated and want to append twitter ids to it, pass it in here. By default this is just an empty list, or [].
 
-get_chunkCSV(**screen name**, api object, initial cursor)
+*get_chunkCSV(screen name, _api object_, _initial cursor_)*
 
 Similar function although there is no list involved. Filename of the csv file will be _screenname_ follower_ids.csv.
